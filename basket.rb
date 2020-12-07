@@ -16,8 +16,8 @@ end
 
 
 backet.each do |name, price|
-  puts "#{name} цена #{price.keys.first * price.values.first}"
-cost += price.keys.first * price.values.first
+ puts "#{name} цена #{price.keys.first * price.values.first}"
+ cost += price.keys.first * price.values.first
 end
 
 puts "Общая цена: #{cost}"
