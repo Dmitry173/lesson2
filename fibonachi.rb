@@ -1,11 +1,7 @@
-array = [0,1]
+fibonachi = [0, 1]
 
-i = 1
-
-while i < 99
-    array[i+1] = (array[i] + array[i-1])
-    i += 1
+while (fibonachi.last + fibonachi[fibonachi.count - 2]) < 100
+  fibonachi << fibonachi.last + fibonachi[fibonachi.count - 2]
 end
 
-puts array
-puts "Длина массива = #{array.length}"
+puts fibonachi
